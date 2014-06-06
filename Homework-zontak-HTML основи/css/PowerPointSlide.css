@@ -1,0 +1,76 @@
+.firstHeader {
+    background-image: url("../img/Presentation.jpg");
+    width: 700px;
+    height: 480px;
+    background-size: 700px 480px;
+}
+.Header{
+    color: #FFA500;
+    position: absolute;
+    left: 35px;
+    top: -15px;
+    font-size: 50px;
+}
+.HeadingTagsOne{
+    position: absolute;
+    top: 80px;
+    left: 68px;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-family: Calibri;
+}
+.orange{
+    color: #FFA500;
+}
+.firstDiv{
+    background: rgba(32 ,32 ,30, .7);
+    position: absolute;
+    border: 2px solid blue;
+    top: 125px;
+    font-size: 19px;
+    left: 80px;
+    width: 560px;
+    height:  72px;
+    color: red;
+    font-family: Calibri;
+}
+.HeadingTagsTwo{
+    position: absolute;
+    top: 200px;
+    left: 68px;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-family: Calibri;
+}
+.secondDiv{
+    background: rgba(32 ,32 ,30, .7);
+    position: absolute;
+    border: 2px solid blue;
+    top: 245px;
+    font-size: 19px;
+    left: 80px;
+    width: 560px;
+    height:  53px;
+    color: red;
+    font-family: Calibri;
+}
+.HeadingTagsThree{
+    position: absolute;
+    top: 305px;
+    left: 68px;
+    font-size: 30px;
+    color: #FFFFFF;
+    font-family: Calibri;
+}
+.thirdDiv{
+    background: rgba(32 ,32 ,30, .7);
+    position: absolute;
+    border: 2px solid blue;
+    font-size: 19px;
+    top: 350px;
+    left: 80px;
+    width: 560px;
+    height:  75px;
+    color: red;
+    font-family: Calibri;
+}
