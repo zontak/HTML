@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Website Header  </title>
+    <style>
+        table{
+            background-color: #234465;
+            width:  100%;
+        }
+        body{
+            margin: 0px;
+            color: #ffffff;
+            font-size: 10px;
+        }
+        table td {
+            font-size: 20px;
+        }
+        #aboutTheUniversity{
+            width: 330px;
+            height: 70px;
+            position: relative;
+            background-color: #234465;
+            left: 400px;
+            display: none;
+        }
+        #trainingCourses{
+            width: 330px;
+            height: 70px;
+            position: relative;
+            background-color: #234465;
+            left: 730px;
+            display: none;
+        }
+        .search{
+            position: relative;
+            top: 5px;
+        }
+        li{
+            border-bottom: solid #4D54D8;
+            font-size: 15px;
+        }
+        ul{
+            list-style-type: none;
+            position: relative;
+            left: -20px;
+        }
+    </style>
+</head>
+<body>
+   <table>
+       <tr>
+       <td rowspan="3"> <img src="img/a.jpg" /></td>
+       </tr>
+       <tr>
+           <td colspan="6">
+            <table >
+               <tr>
+                   <td align="right" width="900"> <img src="img/xx.jpg"></td>
+                   <td align="left" width="70">User</td>
+                   <td align="right" width="55"> <input type="text" width="10"></td>
+                   <td align="left" width="10" > <img width="23" class="search" src="img/Capture.PNG"></td>
+               </tr>
+           </table>
+           </td>
+       </tr>
+       <tr>
+           <td>NEWS</td>
+           <td id="aboutche">ABOUT THE UNIVERSITY &#x25BE;</td>
+           <td id="trainingche">TRAINIG COURSES &#x25BE;</td>
+           <td>FOR CAMPINES</td>
+           <td>FORUM</td>
+           <td>CONTACTS</td>
+       </tr>
+   </table>
+       <div id="aboutTheUniversity">
+           <ul>
+               <li>About the univesity one</li>
+               <li>About the univesity two</li>
+               <li>About the univesity three</li>
+           </ul>
+       </div>
+   <div id="trainingCourses">
+       <ul>
+           <li>Training course one</li>
+           <li>Training course two</li>
+           <li>Training course three</li>
+       </ul>
+   </div>
+</body>
+<script src="js/script.js"></script>
+</html>

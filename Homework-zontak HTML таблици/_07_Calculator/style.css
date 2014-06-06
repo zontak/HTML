@@ -1,0 +1,16 @@
+button{
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+}
+
+input {
+    width:163px;
+    height:40px;
+    text-align: right;
+    font-size: 16px;
+    padding: 0px 5px 0px 0px;
+}
+td {
+    border: 0px solid #b8b8b8;
+}
