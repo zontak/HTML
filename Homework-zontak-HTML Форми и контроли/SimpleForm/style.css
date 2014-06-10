@@ -1,0 +1,38 @@
+        .FirstDiv{
+            background-color: #EEEEEE;
+            height: 360px;
+            width: 650px;
+        }
+        .divOne{
+            padding-left: 10px;
+            width: 300px;
+            height: 260px;
+            background-color: #EEEEEE;
+            float: left;
+        }
+        .divTwo{
+            padding-left: 10px;
+            border: 1px solid black;
+            width: 300px;
+            height: 260px;
+            background-color: #234465;
+            float: left;
+        }
+        .register{
+            border-color: #234465;
+            color: #234465;
+            margin-left: 180px;
+            margin-top: 15px;
+            background-color: #EEEEEE;
+            width: 100px;
+            height: 25px;
+        }
+        .Login{
+            border-color: orange;
+            color: white;
+            margin-left: 180px;
+            margin-top: 0px;
+            background-color: #234465;
+            width: 100px;
+            height: 25px;
+        }

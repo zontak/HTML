@@ -1,0 +1,28 @@
+        h1{
+            text-align: center;
+        }
+        div{
+            background-color: pink;
+            height: 350px;
+            width: 460px;
+        }
+        #FirstDiv{  
+            width: 230px;
+            height: 250px;
+            float: left;
+        }
+        #SecondDiv{
+            width: 230px;
+            height: 250px;
+            float: left;
+        }
+        #city{
+            font-size: 20px;
+            width: 180px;
+            height: 30px;
+        }
+        #Small{
+            width: 70px;
+            height: 40px;
+            float: left;
+        }

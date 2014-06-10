@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Second Homework</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div style="padding-left: 10px;">
+        <h1><em>FLIGHT ORDER</em> </h1>
+            <form action="">
+                 <div id="FirstDiv">
+                    <em>From</em> <br />
+                     <select id="city" style="height: 25px; width: 205px; ">
+                         <option value="Value 1" selected>Enter a city</option>
+                         <option value="Value 2">Sofiq</option>
+                         <option value="Value 3">Varna</option>
+                         <option value="Value 2">Burgas</option>
+                         <option value="Value 3">Other</option>
+                     </select>
+                     <br/>
+                     <br />
+                     <em>Departure Date</em> <br />
+                     <input type="date" style="height: 25px; width: 205px; "/>  
+                     <br />
+                     <em>Return Date</em> <br />
+                     <input type="date" style="height: 25px; width: 205px; "/><br/>  
+                     <br />
+                     <div id="Small">
+                         12+<br />
+                         <input type="number" min="12" max="1000" style="width: 65px; height: 25px;" />
+                     </div>
+                     <div id="Small">
+                         2-12<br />
+                         <input type="number" min="2" max="12" style="width: 65px; height: 25px;" />
+                     </div>
+                     <div id="Small">
+                         0-2<br />
+                         <input type="number" min="0" max="2" style="width: 65px; height: 25px;" />
+                     </div>
+                </div>
+
+            </form>
+        <div id="SecondDiv">
+            <form action="">
+                <div id="FirstDiv">
+                    <em>To</em> <br />
+                    <select id="city" style="height: 25px; width: 205px; ">
+                        <option value="Value 1" selected>Enter a city</option>
+                        <option value="Value 2">Sofiq</option>
+                        <option value="Value 3">Varna</option>
+                        <option value="Value 2">Burgas</option>
+                        <option value="Value 3">Other</option>
+                    </select> <br />
+                    <em><input type="checkbox" value="yes" />Prefer directs</em> <br />
+                    <em> Time interval </em> <br />
+                    <input type="time" style="width: 95px; height: 25px;" />
+                    <input type="time" style="width: 95px; height: 25px;" /> <br />
+                    <em> Time interval </em> <br />
+                    <input type="time" style="width: 95px; height: 25px;" />
+                    <input type="time" style="width: 95px; height: 25px;" /> <br />
+                    <br />
+                    <em>Choose class</em> <br />
+                    <select id="city" style="height: 30px; width: 205px; ">
+                        <option value="Value 1" selected>Economy</option>
+                        <option value="Value 2">Other</option>
+                        <option value="Value 3">And Other</option>
+                    </select> <br />
+                    <input type="submit" value="SEARCH" style="width: 205px; height:35px;" />
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
