@@ -1,0 +1,73 @@
+       #headerr{
+            margin: 20px;
+            margin-top: 80px;
+        }
+        .laptop {
+            border: 1px solid #b8b8b8;
+            border-radius: 10px 10px 10px 10px;
+            width:210px;
+            height:250px;
+            float:left;
+            margin: 2px;
+        }
+
+            .laptop:hover {
+                border: 1px solid red;
+            }
+
+        .text {
+            padding-left: 5px;
+            padding-top: 3px;
+        }
+        .images{
+            width: 200px;
+            height: 115px;
+            margin-top: 30px;
+            margin-left: 5px;
+        }
+        .price{
+            border: 1px solid;
+            border-radius: 10px 0 0 0;
+            background-color: #2C425A;
+            width: 150px;
+            height: 30px;
+            float: right;
+            color: white;
+            text-align: center;
+            margin: 4px;
+            position: relative;
+            bottom: -5px;
+            right: -5px;
+        }
+
+            .price:hover{
+                background-color: orange;
+            }
+
+        #SecontBigDiv{
+            background-color: #F7FCFF;
+            color: #6D5179;
+            width: 200px;
+            height: 570px;
+            float: left;
+            position: relative;
+            bottom: -80px;
+            text-align: center;
+        }
+        #FirstBigDiv{
+            height: 650px;
+            width: 655px;
+            margin: 5px;
+            float: left;
+        }
+        .rangeButtons{
+            height: 80px;
+            font-size: 22px;
+
+        }
+        .nums{
+            font-size: 14px;
+            width: 90px;
+            float: left;
+        }
+        
