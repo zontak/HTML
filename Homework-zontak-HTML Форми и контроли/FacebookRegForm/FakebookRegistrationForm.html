@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Fourth question</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="BigDiv">
+        <h1> fakebook</h1>
+        <h5> Registration </h5>
+        <h6> It is save and it will always be!</h6>
+        <div style="width: 280px; float: left; padding-left: 10px;">
+            <form method="post" action="">
+                <fieldset style=" float: left; margin: 5px;">
+                    <legend style="color: white;">None Important Information</legend>
+                    <input type="text" name="FirstName" placeholder="First name" style="width: 100px; margin: 5px;" />
+                    <input type="text" name="LastName" placeholder="Last name" style="width: 100px; margin: 5px;" />
+                    <input type="text" name="YourPassword" placeholder="Your Password" style="width: 100px; margin: 5px;" />
+                    <input type="text" name="Website" placeholder="Website" style="width: 100px; margin: 5px;" />
+                    <input type="text" name="YourEmail" placeholder="YourEmail" style="width: 100px; margin: 5px;" />
+                    <input type="text" name="PhoneNumber" placeholder="PhoneNumber" style="width: 100px; margin: 5px;" />
+                    <br />
+                    <br />
+                    <div style="color: white;">BirthDay</div>
+                    <input type="datetime" style="width: 180px;"/> <br />
+                    <div style="color: white;">
+                        <input type="radio" name="radioName" value="1" /> Female
+                        <input type="radio" name="radioName" value="1" /> Male
+                        <input type="radio" name="radioName" value="1" /> Other
+                    </div>
+                    <br />
+                    <br />
+                </fieldset>
+                <input type="reset" name="reset" value="Clear Form" style="width: 270px; height: 40px; margin: 5px;" />
+            </form>
+        </div>
+        <div style="width:410px; float: left;">
+            <form method="post" action="">
+                <fieldset style=" float: left; margin: 5px;">
+                    <legend style="color: white;">Important information *required</legend>
+                    <select name="city" style="width: 100px;">
+                        <option value="Value 1" selected>Coutry</option>
+                        <option value="Value 2">Sofia</option>
+                        <option value="Value 2">Plovdiv</option>
+                        <option value="Value 2">Varna</option>
+                        <option value="Value 2">Burgas</option>
+                        <option value="Value 3">Other</option>
+                    </select>
+                    <input type="text" name="Village" placeholder="Village" style="width: 100px; margin: 5px;" />
+                    <input type="text" name="District" placeholder="District" style="width: 100px; margin: 5px;" /> 
+                    <br />
+                    <input type="text" name="Street" placeholder="Street" style="width: 95px;" /> 
+                    <input type="text" name="Nr" placeholder="Nr" style="width: 50px; margin: 2px;" /> 
+                    <input type="text" name="Floor" placeholder="Floor" style="width: 60px; margin: 5px;" /> 
+                    <input type="text" name="Ap nr" placeholder="Ap nr" style="width: 60px; margin: 5px;" /> 
+                    <br />
+                    <br />
+                    <div style="color: white;">Door color</div> 
+                    <input type="color" style="width:100px;" />
+                    <input type="text" name="Watermeter" placeholder="Water meter" style="width: 100px; margin: 5px;"/>
+                    <select name="Aunt " style="width: 140px;  margin: 5px;">
+                        <option value="Value 1" selected>Aunt pantients` size</option>
+                        <option value="Value 2">Sofia</option>
+                        <option value="Value 2">Plovdiv</option>
+                        <option value="Value 2">Varna</option>
+                        <option value="Value 2">Burgas</option>
+                        <option value="Value 3">Other</option>
+                    </select>
+                    <br />
+                    <div style="color: white;">More Personal Information</div>
+                    <textarea name="MoreInformation" placeholder="Give me more Information" style="width: 360px; height:55px;"></textarea>
+                </fieldset>
+                <input type="reset" name="reset" value="Register" style="width: 395px; margin:5px; height: 40px;" />
+            </form>
+        </div>
+    </div>
+</body>
+</html>

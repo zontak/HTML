@@ -1,0 +1,25 @@
+        #BigDiv{
+            border: 1px solid;
+            width: 700px;
+            height: 500px;
+            background-color: #3B5997;
+            float: left;
+        }
+        h1{
+            font-size: 100px;
+            text-align: center;
+            margin: -10px;
+            color: white;
+        }
+        h5{
+            font-size: 30px;
+            text-align: center;
+            color: white;
+            margin: 10px;
+        }
+        h6{
+            color: white;
+            text-align: center;
+            font-size: 15px;
+            margin: 5px;
+        }
