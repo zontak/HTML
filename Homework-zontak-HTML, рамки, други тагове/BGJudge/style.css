@@ -1,0 +1,209 @@
+﻿*{
+    position: relative;
+}
+#wrapper{
+    width: 1100px;
+    height: 1020px;
+    border: 1px solid;
+    margin: 5px auto;
+    border-color: #F7F7F7;
+}
+h1{
+    padding-left: 70px;
+}
+#ABOUT{
+    width: 100px;
+    height: 20px;
+    float: left;    
+    text-align: center;
+    left: 30px;
+    top: 40px;
+    font-size: 13px;
+    color: #B1AEBD;
+}
+#EVENTS{
+    width: 100px;
+    height: 20px;
+    float: left;    
+    text-align: center;
+    left: 100px;
+    top: 40px;
+    font-size: 13px;
+    color: #B1AEBD;
+}
+#CONTACTS{
+    color: #B1AEBD;
+    width: 100px;
+    height: 20px;
+    float: left;    
+    text-align: center;
+    left: 120px;
+    top: 40px;
+    font-size: 13px;
+}
+#SEARCH{
+    left: 590px;
+    height: 20px;    
+    top: 38px;
+    
+}
+#SearchInput {
+    background-color: #F7F7F7;
+    top: -8px;
+    width: 145px;
+}
+#SearchPicture{
+    width: 21px;   
+    left: -5px;
+    top: -3px;
+     
+}
+#NavHr{
+    width: 1020px;
+    top: 35px;
+    color: #F7F7F7;
+}
+#AsideLeft{
+    width: 235px;
+    height: 500px;
+    left: 50px;
+    top: 50px;
+    float: left;
+}
+#AsideHr{
+    width: 235px;
+    top: 50px;
+    color: #F7F7F7;
+}
+#AsideUl{
+    text-decoration: none;
+    color: blue;
+    list-style-type: none;
+    top: 45px;
+    left: -20px;
+    font-size: 19px;
+}
+#FirstSectionDiv{
+    width: 580px;
+    height: 250px;
+    float: left;
+    top: 60px;
+    left: 70px;
+}
+h2{
+    text-align: left;
+    top: -15px;
+    font-size: 25px;
+}
+#SectionSpan{
+    font-size: 13px;
+    top: -37px;
+    color: #B1AEBD;
+}
+p{
+    font-size: 19px;
+    top: -45px;
+}
+#DownTextInsideSection{
+    color: blue;
+    top: -50px;
+    font-size: 18px;
+}
+#SecondSectionDiv{
+    width: 580px;
+    height: 330px;
+    float: left;
+    top: 60px;
+    left: 70px;
+}
+#SecondSectionDivHr{
+    top: -20px;
+}
+#DownTextInsideSectionPrevious{
+    top: 10px;
+    color: blue;
+    font-size: 18px;
+}
+#RightAside{
+    float: right;
+    width: 170px;
+    height: 400px;
+    top: -192px;
+    left: -40px;
+}
+#Language{
+    top: 5px;
+    color: #B1AEBD;
+}
+#RightAsideHr{
+    color: #F7F7F7;
+    width: 160px;
+    left: -5px;
+}
+#SetYourTwitter{
+    width: 1100px;
+    height: 60px;
+    top: 640px;
+    background-color: #F7F7F7;
+}
+#secondPicture{
+    left: -770px;
+    top: 15px;
+}
+#TextSetYourTwitter{
+    color:  #818486;
+    left: 75px;
+    width: 800px;
+    height: 30px;
+    top: -563px;
+    font-size: 20px;
+}
+footer{
+    width: 1100px;
+    height: 220px;
+    background-color: black;
+    top: 640px;
+}
+#BGJudgJava{
+    color: white;
+    font-size: 30px;
+    width: 860px; 
+    height: 220px;
+    top: -500px;
+    left: 40px;
+}
+#Pages{
+    left: -530px;
+    top: -202px;
+    color: white;
+    font-size: 20px;
+}
+li{
+    list-style-type: none;
+}
+#ThirdDivFooter{
+    color: white;
+}
+#thelatestSpan{
+    width: 110px;
+    top: -340px;
+    left: -400px;
+}
+#More{
+    top: -50px;
+    color: white;
+    font-size: 20px;
+}
+#moreDiv{
+    width: 220px;
+    top: -450px;
+    color: gray;
+    left: 600px;
+}
+#LastDiv{
+    width: 200px;
+    height: 200px;
+    top: -630px;
+    left: 850px;   
+    color: gray; 
+}
