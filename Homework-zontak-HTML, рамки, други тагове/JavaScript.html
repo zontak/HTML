@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>JavaScript Worship</title>
+</head>
+<body>
+    <canvas id="myCanvas" width="250" height="300" style="border: 3px dotted red;">
+        Your browser does not support the HTML5 canvas tag.
+    </canvas>
+    <script>
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        ctx.font = "30px Arial";
+        ctx.fillStyle = '#313134';
+        ctx.fillText("I love JavaScript",10,50);
+        ctx.fillStyle = '#F1DA4E';
+        ctx.fillRect(45,100,150,150);
+        ctx.font = "70px Arial Bold";
+        ctx.fillStyle = '#313134';
+        ctx.fillText("JS",100,240);
+    </script>
+</body>
+</html>
